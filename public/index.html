@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <title>Verifi - Fake News Detector</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+        <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Verifi — Fake News Detector</h1>
+        </header>
+        <div class="top-container">
+            <div class="top-containers" id="articles-container">
+                <h3 class="title-cards">Article Section</h3>
+                <label>Title</label>
+                <input id="title" type="text" />
+                <label>Content</label>
+                <textarea name="input-art" id="input-art"></textarea>
+                <div class="button-container">
+                    <button class="check-button" id="check-hardcode">Check</button>
+                </div>
+            </div>
+            <div class="top-containers" id="urls-container">
+                <h3 class="title-cards">Web URL Section</h3>
+                <label for="url">Source URL</label>
+                <input id="url" type="url" placeholder="https://example.com/article" />
+
+                <p id="suggested">Suggested news outlet for real news:</p>
+                <ul>
+                    <li><a href="https://edition.cnn.com/">https://edition.cnn.com/</a></li>
+                    <li><a href="https://www.gmanetwork.com/news/">https://www.gmanetwork.com/news/</a></li>
+                    <li><a href="https://www.philstar.com/">https://www.philstar.com/</a></li>
+                </ul>
+                <p id="suggested">Suggested news outlet for fake news:</p>
+                <ul>
+                    <li><a href="https://theonion.com/">https://theonion.com/</a></li>
+                    <li><a href="https://clickhole.com/">https://clickhole.com/</a></li>
+                </ul>
+
+                <div class="button-container">
+                    <button class="check-button" id="check-url">Check</button>
+                </div>
+            </div>
+            <div class="top-containers" id="image-containers">
+                <h3 class="title-cards">Image Section</h3>
+                <label for="images">Upload image</label>
+                <input id="images" type="file" accept="image/*" multiple />
+                <div class="button-container">
+                    <button class="check-button" id="check-img">Check</button>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-container">
+            <div class="output-container">
+                <h3 class="title-cards">Output Section</h3>
+                <div id="results-container"></div>
+            </div>
+        </div>
+    </body>
+</html>
