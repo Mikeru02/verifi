@@ -7,6 +7,7 @@ class Normalizer(Command):
     
     def execute(self) -> str:
         self.__text = self.__text.lower()
-        self.__text = re.sub(r"\W", "", self.__text)
-        self.__text = re.sub(r"\s+", "", self.__text)
+        self.__text = re.sub(r"[^\w\s]", "", self.__text)
+        self.__text = re.sub(r"\s+", " ", self.__text)
+        self.__text = self.__text.strip()     
         return self.__text
