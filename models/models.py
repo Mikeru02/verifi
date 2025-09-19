@@ -28,7 +28,7 @@ class NaiveBayes(Command):
             model = Open_File(self.__model_file_path, mode="rb").execute()
             return model
         else:
-            class_count, class_word_count, vocab_size = TrainNaiveBayes(self.__document_data, True).execute()
+            class_count, class_word_count, vocab_size = TrainNaiveBayes(self.__document_data, include_stopwords=True).execute()
 
             model_data = {
                 "class_count": class_count,
