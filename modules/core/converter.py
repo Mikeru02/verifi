@@ -9,7 +9,6 @@ class Converter(Command):
     
     def execute(self):
         if self.__type == "image":
-            image = Image(self.__path)
+            image = Image.open(self.__path)
             text = pytesseract.image_to_string(image)
             return text
-        

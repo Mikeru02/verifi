@@ -49,16 +49,16 @@ class Predictor(Command):
                 probability += count * likelihood
             scores[label] = probability
 
-        sentiment = self.__analyzer.polarity_scores(self.__text)
-        compound_score = sentiment["compound"]
+        # sentiment = self.__analyzer.polarity_scores(self.__text)
+        # compound_score = sentiment["compound"]
 
-        if abs(compound_score) > 0.5:
-            # Strong sentiment → slightly favor "False"
-            scores["False"] += 20
-            scores["True"] -= 20
-        else:
-            # Neutral sentiment → slightly favor "True"
-            scores["True"] += 20
-            scores["False"] -= 20
+        # if abs(compound_score) > 0.5:
+        #     # Strong sentiment → slightly favor "False"
+        #     scores["False"] += 20
+        #     scores["True"] -= 20
+        # else:
+        #     # Neutral sentiment → slightly favor "True"
+        #     scores["True"] += 20
+        #     scores["False"] -= 20
 
         return max(scores, key=scores.get), scores
