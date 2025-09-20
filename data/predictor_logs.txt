@@ -1,0 +1,33 @@
+2025-09-20 10:19:25,833 [WARNING]  * Debugger is active!
+2025-09-20 10:19:25,835 [INFO]  * Debugger PIN: 117-223-300
+2025-09-20 10:19:31,856 [DEBUG] STREAM b'IHDR' 16 13
+2025-09-20 10:19:31,857 [DEBUG] STREAM b'sRGB' 41 1
+2025-09-20 10:19:31,858 [DEBUG] STREAM b'gAMA' 54 4
+2025-09-20 10:19:31,858 [DEBUG] STREAM b'pHYs' 70 9
+2025-09-20 10:19:31,859 [DEBUG] STREAM b'IDAT' 91 65445
+2025-09-20 10:19:32,064 [DEBUG] ['tesseract', '/tmp/tess_dmhihbn1_input.PNG', '/tmp/tess_dmhihbn1', 'txt']
+2025-09-20 10:19:39,381 [INFO] 127.0.0.1 - - [20/Sep/2025 10:19:39] "POST /image HTTP/1.1" 200 -
+2025-09-20 10:19:59,418 [INFO] 127.0.0.1 - - [20/Sep/2025 10:19:59] "GET / HTTP/1.1" 200 -
+2025-09-20 10:20:00,165 [INFO] 127.0.0.1 - - [20/Sep/2025 10:20:00] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-09-20 10:20:00,245 [INFO] 127.0.0.1 - - [20/Sep/2025 10:20:00] "[36mGET /public/style.css HTTP/1.1[0m" 304 -
+2025-09-20 10:20:00,267 [INFO] 127.0.0.1 - - [20/Sep/2025 10:20:00] "GET /public/script.js HTTP/1.1" 200 -
+2025-09-20 10:20:07,428 [DEBUG] STREAM b'IHDR' 16 13
+2025-09-20 10:20:07,429 [DEBUG] STREAM b'sRGB' 41 1
+2025-09-20 10:20:07,429 [DEBUG] STREAM b'gAMA' 54 4
+2025-09-20 10:20:07,429 [DEBUG] STREAM b'pHYs' 70 9
+2025-09-20 10:20:07,429 [DEBUG] STREAM b'IDAT' 91 65445
+2025-09-20 10:20:07,652 [DEBUG] ['tesseract', '/tmp/tess_2rbdvv0g_input.PNG', '/tmp/tess_2rbdvv0g', 'txt']
+2025-09-20 10:20:12,451 [INFO] 127.0.0.1 - - [20/Sep/2025 10:20:12] "POST /image HTTP/1.1" 200 -
+2025-09-20 10:20:39,220 [INFO] 127.0.0.1 - - [20/Sep/2025 10:20:39] "[36mGET /public/style.css HTTP/1.1[0m" 304 -
+2025-09-20 10:20:39,407 [INFO] 127.0.0.1 - - [20/Sep/2025 10:20:39] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-09-20 10:21:17,753 [INFO] 127.0.0.1 - - [20/Sep/2025 10:21:17] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-09-20 10:21:49,054 [INFO] 127.0.0.1 - - [20/Sep/2025 10:21:49] "GET / HTTP/1.1" 200 -
+2025-09-20 10:21:49,758 [INFO] 127.0.0.1 - - [20/Sep/2025 10:21:49] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-09-20 10:21:49,777 [INFO] 127.0.0.1 - - [20/Sep/2025 10:21:49] "GET /public/style.css HTTP/1.1" 200 -
+2025-09-20 10:21:49,780 [INFO] 127.0.0.1 - - [20/Sep/2025 10:21:49] "[36mGET /public/script.js HTTP/1.1[0m" 304 -
+2025-09-20 10:21:59,144 [INFO] 127.0.0.1 - - [20/Sep/2025 10:21:59] "GET / HTTP/1.1" 200 -
+2025-09-20 10:21:59,242 [INFO] 127.0.0.1 - - [20/Sep/2025 10:21:59] "GET /public/style.css HTTP/1.1" 200 -
+2025-09-20 10:21:59,246 [INFO] 127.0.0.1 - - [20/Sep/2025 10:21:59] "[36mGET /public/script.js HTTP/1.1[0m" 304 -
+2025-09-20 10:22:12,134 [DEBUG] Starting new HTTPS connection (1): theonion.com:443
+2025-09-20 10:22:12,650 [DEBUG] https://theonion.com:443 "GET /netanyahu-these-so-called-genocide-experts-have-probably-never-committed-a-genocide-in-their-lives/ HTTP/11" 200 None
+2025-09-20 10:22:13,312 [INFO] 127.0.0.1 - - [20/Sep/2025 10:22:13] "POST /url HTTP/1.1" 200 -

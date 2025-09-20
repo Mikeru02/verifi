@@ -61,3 +61,10 @@ stop_words = [
 ]
 
 
+domain_source = {
+    "theonion.com": {"False": 20},
+    "clickhole.com": {"False": 20},
+    "cnn.com": {"True": 20},
+    "gmanetwork.com": {"True": 20},
+    "philstar": {"True": 20},
+}
