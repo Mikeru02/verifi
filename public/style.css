@@ -16,12 +16,17 @@ body{
     background-color: var(--bg-color);
 }
 
+h1{
+    text-align: center;
+}
+
 h1, h3, p,label{
     color: var(--accent-4)
 }
 
 textarea, input{
     background-color: var(--accent-3);
+    font-size: 15px;
 }
 
 .top-container{
@@ -32,7 +37,7 @@ textarea, input{
 }
 
 .top-containers{
-    border: solid var(--accent-2) 2px;
+    border: solid var(--accent-2) 4px;
     width: 30vw;
     height: inherit;
     padding: 20px;
@@ -81,7 +86,7 @@ ul li a{
 }
 
 .output-container{
-    border: solid var(--accent-2) 2px;
+    border: solid var(--accent-2) 4px;
     background-color: var(--accent-1);
     border-radius: 20px;
     width: inherit;
@@ -118,4 +123,13 @@ ul li a{
 
 .check-button:active {
   box-shadow: 0 0 4px #494746;
+}
+
+.results-cards{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 20px;
+    margin-bottom: 20px;
 }
